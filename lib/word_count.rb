@@ -2,8 +2,9 @@ class String
   define_method(:word_count) do |target|
     words_array = self.split(' ')
     word_count = 0
+    target_word = target
     words_array.each() do |word|
-      if target == word
+      if target.== word
         word_count += 1
       end
     end
@@ -11,4 +12,4 @@ class String
   end
 end
 
-'Little hands Little Marco rich tremendous what spray-can orange eeeyuuuuge'.word_count("Little")
+# 'Little hands Little Marco rich tremendous what spray-can orange eeeyuuuuge'.word_count("Little")
