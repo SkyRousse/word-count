@@ -24,6 +24,5 @@ describe('the word count path', {:type => :feature}) do
     fill_in('string', :with => "The Make America Great Again taco bowl. Trump Steaks little hands winning. America Little Marco tremendous. America Make america Great Again spray-can orange. America Build the wall taco bowl")
     click_button('Submit')
     expect(page).to have_content('The word america is in the string 5 times')
-save_and_open_page
   end
 end

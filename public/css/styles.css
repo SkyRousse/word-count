@@ -1,5 +1,16 @@
+html {
+  font-size: 10px;
+}
 body {
   font-family: 'Noto Sans', sans-serif;
+}
+a {
+  font-size: 2rem;
+  color: rgba(120, 195, 129, 1);
+}
+a:hover, a:visited {
+  color: rgba(120, 195, 129, .8);
+  text-decoration: none;
 }
 h1, h2, h3, h4, h5 {
   text-align: center;
@@ -49,4 +60,14 @@ button[type='submit'] {
 footer {
   margin-top: 60px;
   text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 567px) {
+  html {
+    font-size: 6px;
+  }
 }
