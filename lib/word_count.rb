@@ -12,5 +12,3 @@ class String
     word_count
   end
 end
-
-# 'Little hands Little Marco rich tremendous what spray-can orange eeeyuuuuge'.word_count("Little")

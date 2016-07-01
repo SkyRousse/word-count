@@ -1,16 +1,18 @@
-<h1>Word Count</h1>
-<p class="lead">Find out how many times a word occurs in a string of your choosing. Simply input your target word that you want to find the number of occurances for and the string you want to search through.</p>
+<div id="results">
+  <h1>Word Count</h1>
+  <p class="lead">Find out how many times a word occurs in a string of your choosing. Simply input your target word and the string you want to search through.</p>
 
-<form action='/result'>
-  <div class="form-group">
-    <label for='target'>Enter your target word
-      <input id='target' class="form-control" name='target' type='text'>
-    </label>
-  <div>
+  <form action='/result'>
     <div class="form-group">
-      <label for='string'>Enter your target word
-        <textarea class="form-control" rows="5" id='string' name='string'></textarea>
+      <label for='target'>Enter your target word
+        <input id='target' class="form-control" name='target' type='text'>
       </label>
     <div>
-    <button type='submit'>Submit</button>
-</form>
+      <div class="form-group">
+        <label for='string'>Enter your target word
+          <textarea class="form-control" rows="5" id='string' name='string'></textarea>
+        </label>
+      <div>
+      <button type='submit'>Submit</button>
+  </form>
+</div>

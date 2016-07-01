@@ -1,2 +1,20 @@
 <h2>Results</h2>
-<p>The word <%= @target_word %> is in the string <%= @result %> times</p>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="target_word">
+      <h3>You Searched for the Word</h3>
+      <%= @target_word %>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="string">
+      <h3>In the String</h3>
+      <%= @string %>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <p>The word <%= @target_word %> is in the string <%= @result %> times</p>
+  </div>
+</div>
