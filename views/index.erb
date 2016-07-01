@@ -1,18 +1,23 @@
-<div id="index">
-  <h1>Word Count</h1>
+<h2>Word Discovery</h2>
+<div class="hero">
+  <img src="img/lost-bot.png" alt="small toy robot figure that looks lost in a wooded area" class="img-responsive img-circle">
+</div>
+<h2>Find a word</h2>
   <p class="lead">Find out how many times a word occurs in a string of your choosing. Simply input your target word and the string you want to search through.</p>
-
+<div class="row">
   <form action='/result'>
-    <div class="form-group">
-      <label for='target'>Enter your target word
-        <input id='target' class="form-control" name='target' type='text'>
-      </label>
-    <div>
+    <div class="col-sm-6">
+      <h3>Enter Target</h3>
       <div class="form-group">
-        <label for='string'>Enter your target word
-          <textarea class="form-control" rows="5" id='string' name='string'></textarea>
-        </label>
-      <div>
-      <button type='submit'>Submit</button>
+        <input id='target' class="form-control" name='target' type='text'>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <h3>Enter String</h3>
+      <div class="form-group">
+        <textarea class="form-control" rows="5" id='string' name='string'></textarea>
+        <button type='submit'>Submit</button>
+      </div>
+    </div>
   </form>
 </div>
