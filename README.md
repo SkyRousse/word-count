@@ -1,6 +1,6 @@
 # Word Count
 
-####  A website built in Ruby that uses a method to return how frequently a word appears in a given string. The is be able to input both the word and the string of words to check.
+####  A website built in Ruby that uses a method to return how frequently a word appears in a given string. The user is able to input both the word and the string of words to check.
 
 #### By Sky Rousse
 
