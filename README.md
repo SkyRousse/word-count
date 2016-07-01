@@ -28,7 +28,7 @@
 
 * Download from github: https://github.com/SkyRousse/word-count.git
 * Open in a web browser
-* Or visit site online at:
+* Or visit site online at:https://remembrance-poppy-50117.herokuapp.com/
 
 ## Known Bugs
 No known bugs at this time.
